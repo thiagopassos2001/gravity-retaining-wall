@@ -1,5 +1,10 @@
 # Gravity Retaining Wall
-Muro de contenção de gravidade
+
+* Gravity containment wall
+
+Checking the stability of tipping, slipping and breaking the foundation
+
+* Muro de contenção de gravidade
 
 Verificação da estabilidade quanto ao tombamento, escorregamento e ruptura da fundação
 
@@ -79,3 +84,9 @@ Estabilidade ao escorregamento FS = 3.66 ≥ 1.5 - Estável
 Estabilidade à ruptura da fundação FS = 3.31 ≥ 2.5 - Estável
 True
 ```
+
+Para os seguintes perfis:
+* b = b0; b1 > 0; b2 > 0; d > 0 -> Perfil "T" invertido
+* b = b0; b1 = 0; b2 > 0; d ≠ 0 -> Perfil "L"
+* b = b0; b1 = 0; b2 = 0 -> Perfil Prancha
+* b > b0; b1 = 0; b2 = 0 -> Perfil Trapeizoidal
